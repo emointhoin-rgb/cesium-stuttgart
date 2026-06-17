@@ -1,0 +1,19 @@
+# Abhaengigkeiten
+node_modules/
+
+# Build-Ausgabe (wird von GitHub Actions automatisch erzeugt)
+dist/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Editor / OS
+.DS_Store
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+Thumbs.db

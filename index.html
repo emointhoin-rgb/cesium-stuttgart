@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stuttgart in 3D &middot; LoD2 auf Cesium World Terrain</title>
+  </head>
+  <body>
+    <div id="cesiumContainer"></div>
+
+    <!-- Info-Panel oben links -->
+    <header id="panel">
+      <p class="eyebrow">Cesium &times; Vite</p>
+      <h1>Stuttgart in 3D</h1>
+      <p class="lede">
+        LoD2-Gebaeudemodelle des Landes Baden-Wuerttemberg, drapiert auf das
+        Cesium&nbsp;World&nbsp;Terrain.
+      </p>
+      <dl class="meta">
+        <div><dt>Datensatz</dt><dd>LoD2 32&#95;513&#95;5402 (4&nbsp;Kacheln)</dd></div>
+        <div><dt>Quelle</dt><dd>LGL Baden-Wuerttemberg</dd></div>
+        <div><dt>Gelaende</dt><dd>Cesium World Terrain</dd></div>
+      </dl>
+      <button id="flyHome" type="button">Zur&uuml;ck zu den Geb&auml;uden</button>
+      <button id="toggleTime" type="button" class="ghost">Tag-/Nacht-Beleuchtung</button>
+    </header>
+
+    <!-- Hinweis unten: Bedienung -->
+    <footer id="hint">
+      <span>Geb&auml;ude anklicken f&uuml;r Details</span>
+      <span class="sep">&middot;</span>
+      <span>Ziehen zum Drehen, Scrollen zum Zoomen</span>
+    </footer>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
